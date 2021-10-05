@@ -14,6 +14,7 @@ using namespace Ogre;
 using namespace OgreBites;
 
 Ogre::Vector3 translate(0, 0, 0);
+bool useOrtho = true;
 
 class ExampleFrameListener : public Ogre::FrameListener
 {
@@ -50,6 +51,7 @@ public:
 	bool keyPressed(const KeyboardEvent& evt);
 	void createScene();
 	void createCamera();
+	void toggleCameraType();
 	void createFrameListener();
 };
 
@@ -90,16 +92,19 @@ bool OgreTutorial::keyPressed(const KeyboardEvent& evt)
 		getRoot()->queueEndRendering();
 		break;
 	case 'w':
-		translate = Ogre::Vector3(0, 0, -10);
+		translate = Ogre::Vector3(0, 0, -100);
 		break;
 	case 's':
-		translate = Ogre::Vector3(0, 0, 10);
+		translate = Ogre::Vector3(0, 0, 100);
 		break;
 	case 'a':
-		translate = Ogre::Vector3(-10, 0, 0);
+		translate = Ogre::Vector3(-100, 0, 0);
 		break;
 	case 'd':
-		translate = Ogre::Vector3(10, 0, 0);
+		translate = Ogre::Vector3(100, 0, 0);
+		break;
+	case 'f':
+		toggleCameraType();
 		break;
 	default:
 		break;
@@ -134,8 +139,8 @@ void OgreTutorial::createScene()
 	// Set Light (Range, Brightness, Fade Speed, Rapid Fade Speed)
 	//light1->setAttenuation(10, 0.5, 0.045, 0.0);
 
-	//
-	Entity* lightEnt = scnMgr->createEntity("LightEntity", "sphere.mesh");
+	//This is that little sphere thingy
+	Entity* lightEnt = scnMgr->createEntity("LightEntity", "cube.mesh");	//sphere.mesh and cube.mesh both work. I got paddles and a ball!
 	SceneNode* lightNode = node->createChildSceneNode("LightNode");
 	lightNode->attachObject(lightEnt);
 	lightNode->attachObject(light);
@@ -162,13 +167,13 @@ void OgreTutorial::createScene()
 	groundEntity->setMaterialName("Examples/BeachStones");
 
 
-	Entity* ent = scnMgr->createEntity("Sinbad.mesh");
-	ent->setCastShadows(true);
+	Entity* ent = scnMgr->createEntity("cube.mesh");
+	ent->setCastShadows(false);
 	SinbadNode = scnMgr->createSceneNode("Character");
 	SinbadNode->attachObject(ent);
 	scnMgr->getRootSceneNode()->addChild(SinbadNode);
 	SinbadNode->setPosition(Ogre::Vector3(0.0f, 4.0f, 0.0f));
-	SinbadNode->setScale(3.0f, 3.0f, 3.0f);
+	SinbadNode->setScale(0.3f, 0.1f, 0.1f);
 }
 
 void OgreTutorial::createCamera()
@@ -178,11 +183,15 @@ void OgreTutorial::createCamera()
 
 	// create the camera
 	Camera* cam = scnMgr->createCamera("myCam");
-	cam->setNearClipDistance(5); // specific to this sample
+	cam->setNearClipDistance(1); // specific to this sample
 	cam->setAutoAspectRatio(true);
 	camNode->attachObject(cam);
-	camNode->setPosition(0, 100, 200);
+	camNode->setPosition(0, 100, 0);
 	camNode->lookAt(Ogre::Vector3(0, 0, 0), Node::TS_WORLD);
+	cam->setProjectionType(PT_ORTHOGRAPHIC);
+	cam->setOrthoWindowHeight(Ogre::Real(100));
+	cam->setOrthoWindowWidth(Ogre::Real(100));
+	cam->setFOVy(Ogre::Radian(3.141/2));
 
 	// and tell it to render into the main window
 	getRenderWindow()->addViewport(cam);
@@ -191,6 +200,17 @@ void OgreTutorial::createCamera()
 
 
 }
+
+void OgreTutorial::toggleCameraType()
+{
+		Camera* cam = scnMgr->getCamera("myCam");
+	if (useOrtho) cam->setProjectionType(PT_PERSPECTIVE);
+	else cam->setProjectionType(PT_ORTHOGRAPHIC);
+
+	useOrtho = !useOrtho;
+}
+
+
 
 void OgreTutorial::createFrameListener()
 {

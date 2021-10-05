@@ -1,0 +1,16 @@
+
+NAVIGATION:
+change directory					cd <paste direrectory here>				Only works in same drive!
+go back one directory				cd..
+go to e drive						e:
+show contents of directory			dir
+clear screen						cls
+
+GIT:
+show git info						git
+show version info					git --version
+status of current directory			git status								(must be in an active git directory)
+pull from source (Git online)		git pull
+add folder/file to staging area		git add "filename".FILEEXTENSION 		(Quotes can be ignored if no spaces in filename) (must be in directory of file to add file OR directory of parent folder to add folder) (empty folders must have a gitinclude in them!)
+commit all staged files/folders		git commit -m "title/desc of commit here"
+push								n/a										PUSH VIA GITHUB DESKTOP! SAFER AND ACTUALLY WORKS!

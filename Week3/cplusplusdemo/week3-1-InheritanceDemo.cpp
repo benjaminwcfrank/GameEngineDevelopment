@@ -8,8 +8,16 @@
 #include <iostream>
 using namespace std;
 
+
+/// THIS IS THE ANIMAL SUPERCLASS
+/// It's the superclass for mammal and winged animal
+/// 
+/// animals eat and that's about it
 struct Animal {
     virtual ~Animal() = default;
+
+    /// Eat function
+    /// Eats shoots and leaves
     virtual void Eat() {}
 };
 

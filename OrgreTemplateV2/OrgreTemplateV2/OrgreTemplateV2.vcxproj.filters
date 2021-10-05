@@ -15,20 +15,228 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week1-1-bootStrap.cpp">
+    <ClCompile Include="..\..\Week3\Week3-1-Sinbad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="week1-2-simpleSample.cpp">
+    <ClCompile Include="..\..\Week3\Week3-2-SinbadMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="week1-3-Transformartions.cpp">
+    <ClCompile Include="..\..\Week3\Week3-3-CameraWireframe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="week1-4-LookAtDemo.cpp">
+    <ClCompile Include="..\..\Week3\Week3-4-AddMovingToScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="week1-5-multipleViewPorts.cpp">
+    <ClCompile Include="..\..\Week3\Week3-5-FrameListenerDemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Week3\Week3-6-FrameIndependentDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\Week3-7-InteractiveAnimationDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\Week3-8-CameraDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\Week3-9-LocalSpaceDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\Week3-10-TimerDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\week3-1-InheritanceDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-2-VirtualInheritanceDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-3-0-PolymorphismDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-3-1-MixInClassDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-4-CompositionDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-5-Aggregation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-6-1-AssertDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-6-2-AssemblyDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-6-RAIIDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-7-EndianDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-8-IntegerEndianSwappingDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-9-1-inlineDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-9-FloatingpointEndianSwappingDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-10-VTablePointerDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-11-overrideDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-12-finalDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-13-declTypeDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-14-delegatingconstructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-15-Classical-Enum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week3\cplusplusdemo\Week3-16-Strongly-Typed-Enumeration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-1-ManualObjectDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-2-ManualObjectInteractiveDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-3-ManualObjectAnimationDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-4-ManualObjectColored.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-5-ManualObjectCubeDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-6-ManualObjectIndexDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-7-Material1Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-8-Material3Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-9-Material4Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-10-Material5Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-11-Material7Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-12-Material8Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-13-Material9Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-14-Material10Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week4\Week4-15-Material12Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-0-SceneManagerDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-1-ResourceManagerDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-2-ModelDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-3-AddVolumeDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-4-FieldOfGrassDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-5-StaticGeometryDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-6-OurFirstShaderDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-7-ShaderDemo2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-8-ShaderDemo3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week6\Week6-9-ShaderDemo4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\week5-1-EulerAnglesDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\week5-2-QuaternionDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\Week5-3-TrayDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\Week5-4-TrayDemo2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\week5-5-TrayButtonDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\week5-6-TrayFrameStatsDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Week5\week5-7-TrayFrameStatsDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment1Attempt1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Week4\FlatVertexColour.material">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week4\MyMaterials.material">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week6\MyMaterials.material">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week6\MyShaders.cg">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week6\MyShadersFS.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week6\MyShadersFS1.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week6\MyShadersVS.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\Week6\MyShadersVS1.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Week6\ConsoleColor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
